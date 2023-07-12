@@ -1,6 +1,11 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "author": "Jakick-ywh-84e118d8b5396bb8@yeswehack.ninja",
-  "main": "app.js"
+  "name" : "app",
+  "version" : "0.1.0",
+  "main" : "app.js",
+  "scripts" : {
+    "start" : "node app.js"
+  },
+  "engines" : {
+    "node" : "^10"
+  }
 }
