@@ -1,7 +1,8 @@
 const http = require('https');
 
-const hostname = 'app-4ff09191-a8ff-4dbc-84d0-f8dcb982d186.cleverapps.io';
-const port = 443;
+//const hostname = 'app-4ff09191-a8ff-4dbc-84d0-f8dcb982d186.cleverapps.io';
+const hostname = 'localhost';
+const port = 80;
 
 const server = http.createServer((req, res) => {
 	  res.statusCode = 200;
